@@ -19,7 +19,7 @@ public class LoginPageTest extends BaseTest {
     @Test
     public void anotherLoginTest() {
         app.loginPage().goToLoginPage();
-        app.loginPage().login("admin", "paro123!");
+        app.loginPage().login("admin", "pa123!");
         app.dashboardPage().verifyLogoutButtonIsPresent();
     }
 }
