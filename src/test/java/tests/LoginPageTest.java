@@ -21,5 +21,6 @@ public class LoginPageTest extends BaseTest {
         app.loginPage().goToLoginPage();
         app.loginPage().login("admin", "pa123!");
         app.dashboardPage().verifyLogoutButtonIsPresent();
+        app.loginPage().goToLoginPage();
     }
 }
